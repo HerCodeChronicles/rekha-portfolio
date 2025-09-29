@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rekha Kambale | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <nav>
+      <h1 class="logo">Rekha Kambale</h1>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <!-- Mobile Menu Button -->
+      <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-content">
+      <div class="hero-text">
+        <h2>Hi, I'm <span class="highlight">Rekha Kambale</span></h2>
+        <p>Software Developer | Python • Java • Django • Power BI</p>
+        <button onclick="scrollToSection('projects')">Explore My Projects</button>
+      </div>
+      <div class="hero-image">
+        <!-- Replace rekha.jpg with your own picture file -->
+        <img src="C:\Users\USER\Pictures\rekha.jpg" alt="Rekha Kambale">
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I'm an aspiring software developer with strong skills in Python, Java, web development (HTML, CSS, JavaScript),
+      and data tools like Power BI. I'm passionate about learning and building impactful software.
+    </p>
+  </section>
+
+  <!-- Education -->
+  <section id="education">
+    <h2>Education</h2>
+    <ul class="timeline">
+      <li><strong>Maharashtra Institute of Technology (2022–2025)</strong><br />BTech in Electronics and Computer Engineering – CGPA: 8.12</li>
+      <li><strong>Government Polytechnic (2019–2022)</strong><br />Diploma in Electronics and Telecommunication – 74.06%</li>
+      <li><strong>B.K. High School, Beed (2016–2019)</strong><br />10th Board – 79.80%</li>
+    </ul>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <h3>🍦 Ice Cream Website (Django)</h3>
+        <p>Dynamic and responsive site using Django, HTML/CSS, Bootstrap.</p>
+      </div>
+      <div class="project-card">
+        <h3>🛍️ Amazon Clone</h3>
+        <p>Amazon-like eCommerce UI using only HTML and CSS.</p>
+      </div>
+      <div class="project-card">
+        <h3>🚌 Bus Tracking System</h3>
+        <p>Live tracking of buses with schedules and nearby attractions.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <div class="contact-info">
+      <p>Email: <a href="mailto:rekhakambale5232@gmail.com">rekhakambale5232@gmail.com</a></p>
+      <p>Phone: <a href="tel:+919322135322">+91 9322135322</a></p>
+      <p>LinkedIn: <a href="https://linkedin.com/in/rekha-kambale" target="_blank">linkedin.com/in/rekha-kambale</a></p>
+    </div>
+
+    <form id="contactForm">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Rekha Kambale | Portfolio</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
